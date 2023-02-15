@@ -1,14 +1,14 @@
 <?php
-$small = HTML_SPECIALCHARS(filter_input(INPUT_GET, 'small'));
-$medium = HTML_SPECIALCHARS(filter_input(INPUT_GET, 'medium'));
-$large = HTML_SPECIALCHARS(filter_input(INPUT_GET, 'large'));
+$small = HTML_SPECIALCHARS(INPUT_GET, 'size');
+$medium = HTML_SPECIALCHARS(INPUT_GET, 'size');
+$large = HTML_SPECIALCHARS(INPUT_GET, 'size');
 
-$pepperoni = HTML_SPECIALCHARS(filter_input(INPUT_GET, 'pepperoni'));
-$black_olives = HTML_SPECIALCHARS(filter_input(INPUT_GET, 'black_olives'));
-$green_olives = HTML_SPECIALCHARS(filter_input(INPUT_GET, 'green_olives'));
-$green_peppers = HTML_SPECIALCHARS(filter_input(INPUT_GET, 'green_peppers'));
-$banana_peppers = HTML_SPECIALCHARS(filter_input(INPUT_GET, 'pepperoni'));
-$feta_cheese = HTML_SPECIALCHARS(filter_input(INPUT_GET, 'feta_cheese'));
+$pepperoni = HTML_SPECIALCHARS(INPUT_GET, 'pepperoni');
+$black_olives = HTML_SPECIALCHARS(INPUT_GET, 'black_olives');
+$green_olives = HTML_SPECIALCHARS(INPUT_GET, 'green_olives');
+$green_peppers = HTML_SPECIALCHARS(INPUT_GET, 'green_peppers');
+$banana_peppers = HTML_SPECIALCHARS(INPUT_GET, 'pepperoni');
+$feta_cheese = HTML_SPECIALCHARS(INPUT_GET, 'feta_cheese');
 ?>
 <html>
     <head>
